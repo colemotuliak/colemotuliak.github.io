@@ -1,0 +1,159 @@
+/* CSS Stylesheet colemotuliak.space */
+
+/* Universal Styles */
+
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #FFFFFF;	
+	
+}
+
+/* Background Styles */
+
+#backgroundGradient {
+	background: linear-gradient(141deg, rgb(52,152,219), rgb(155,89,182));
+	
+}
+
+/* Header Styles */
+
+h1.header {
+	font-size: 60px;
+	
+}
+
+.titleHeader {
+	text-align: center;
+	font-size: 100px;
+}
+
+h2.headerProjectFlexContent {
+	color: black;
+	text-align: center;
+	
+}
+/* Navigation Styles */
+
+nav {
+	background-color: rgba(114, 244, 253, 0.10);
+	
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	font-size: 30px;
+	font-style: italic;
+	font-style: oblique;
+	text-transform: full-width;
+	text-align: center;
+	text-decoration: none;
+	
+	
+}
+
+ul, li {
+	display: inline;
+    list-style-type: none;
+	padding: 0;
+	
+}
+
+p.navDivi {
+	display: inline;
+	color: darkgrey;
+	
+}
+
+/* Paragraph Styles */
+
+p.punderHeader {
+	font-size: 1.5em;
+	
+}
+
+p.pProjectFlexContent {
+	color: black;
+	
+}
+
+/* Div Styles */
+
+div.divCenter {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	
+}
+
+div.footer {
+	display: table;
+	margin: auto;
+	text-align: center;
+	
+}
+
+div.projectsFlexContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 50px;
+	justify-content: center;
+
+}
+
+div.projectsFlexItem {
+	width: 300px;
+	height: 150px;
+	background: white;
+	
+}
+
+/* Link Styles */
+
+a.mailTo {
+	font-weight: bolder;
+	
+}
+
+a.footerMailTo {
+	color: inherit;
+	font-family: inherit;
+	text-decoration: none;
+	
+}
+
+
+/* Selection Styles */
+
+/* I hate the ugly selection blue color, so I decided to get rid of it. You can still select text,
+   but I feel like removing the selection color makes the website look a lot cleaner. */
+
+::-moz-selection {
+	background: none;
+
+}
+
+::selection {
+    background: none;
+	
+}
+
+/* This is a placeholder for something I might want to do with the icons from Font Awesome*/
+
+/*.socialMediaIcons {}*/
+
+/* Footer Styles */
+
+footer {
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+	
+}
+
+p.footer {
+	font-family: 'PT Sans', sans-serif;
+	display: inline;
+	
+}
+
