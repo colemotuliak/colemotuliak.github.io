@@ -78,7 +78,7 @@ p.pProjectFlexContent {
 }
 
 p.yamlGone {
-	opacity: 100;
+	color: transparent;
 }
 
 /* Div Styles */
