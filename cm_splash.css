@@ -78,7 +78,8 @@ p.pProjectFlexContent {
 }
 
 p.yamlGone {
-	opacity: 100;
+	display: none;
+	 
 }
 
 /* Div Styles */
